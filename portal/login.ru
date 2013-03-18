@@ -11,6 +11,19 @@ require "em-synchrony/fiber_iterator"
 require 'rack/fiber_pool'
 require 'hashie'
 
+module MemcacheOperations
+  def memcache
+    EventMachine::Protocols::Memcache.connect
+  end
+  def set_in_cache key, value
+    memcache.set(key, Marshal.dump(value))
+  end
+
+  def get_from_cache key
+    Marshal.load(memcache.get(key))
+  end
+end
+
 module HttpOperations
   def http
     Faraday.new do |connection|
@@ -78,6 +91,7 @@ end
 
 class SessionManagement
   include HttpOperations
+  include MemcacheOperations
 
   module SessionMethods
     def session
@@ -101,24 +115,27 @@ class SessionManagement
   end
 
   def call(env)
-    #Check for session
-
     authorisation_token = request(env).cookies['auth_token']
     app_token = "#{authorisation_token}_#{@app.class.name}"
+
     session_url = "#{session_service_url}/#{authorisation_token}/#{app_token}"
+
     response = http_get(session_url)
-    unless response.status == 200
-      http_put(session_url)
-    end
-    memcache_connection = EventMachine::Protocols::Memcache.connect
+    http_put(session_url) unless response.status == 200
+
+    load_session(app_token, env)
+
+    result = @app.call(env)
+    set_in_cache(app_token, env["session_management.session"])
+    result
+  end
+
+  def load_session(app_token, env)
     env["session_management.session"] = begin
-      Marshal.load(memcache_connection.get(app_token))
+      get_from_cache app_token
     rescue
       {}
     end
-    result = @app.call(env)
-    memcache_connection.set(app_token, Marshal.dump(env["session_management.session"]))
-    result
   end
 end
 
@@ -164,45 +181,38 @@ end
 
 class SessionService < Grape::API
   format :json
-
-  helpers do
-    def memcache
-      EventMachine::Protocols::Memcache.connect
-    end
-  end
+  helpers MemcacheOperations
 
   put "/:token/:app_token" do
-    cache_entry = Marshal.load(memcache.get(params[:token]))
+    cache_entry = get_from_cache(params[:token])
     cache_entry << params[:app_token]
-    memcache.set(params[:token], Marshal.dump(cache_entry))
+    set_in_cache(params[:token], cache_entry)
     {status: "ok"}
   end
 
   get "/:token/:app_token" do
     token = params[:token]
-    cache_entry = Marshal.load(memcache.get(token))
+    cache_entry = get_from_cache(token)
     throw(:error, :status => 404) unless cache_entry
     throw(:error, :status => 404) unless cache_entry.include?(params[:app_token])
   end
 
   post "/" do
     token = UUID.generate(:compact)
-    memcache.set(token, Marshal.dump([]))
+    set_in_cache(token, [])
     {token: token}
   end
 
   post "/:token" do
     token = params[:token]
-    module_sessions = Marshal.load(memcache.get(token))
+    module_sessions = get_from_cache(token)
     throw(:error, :status => 404) unless module_sessions
 
-
-
-    memcache.set(token, Marshal.dump(module_sessions))
+    set_in_cache(token, module_sessions)
 
     EM::Synchrony::FiberIterator.new(module_sessions, 10).each do |tracked_token|
       puts "refreshing: #{tracked_token}"
-      memcache.set(tracked_token, memcache.get(tracked_token))
+      set_in_cache(tracked_token, get_from_cache(tracked_token))
     end
   end
 end
@@ -211,12 +221,6 @@ class AuthenticationService < Grape::API
   format :json
 
   helpers HttpOperations
-
-  helpers do
-    def memcache
-      EventMachine::Protocols::Memcache.connect
-    end
-  end
 
   params do
     requires :credentials, :valid_credentials => true
@@ -248,7 +252,6 @@ class HomePage < Sinatra::Base
     config.session_service_url "http://localhost:3000/sessions"
   end
 
-
   get '/' do
     puts "value out of the session: #{session[:name]}"
     session[:name] = "leon"
@@ -266,7 +269,6 @@ class Procure < Sinatra::Base
   use(SessionManagement) do |config|
     config.session_service_url "http://localhost:3000/sessions"
   end
-
 
   get '/' do
     puts "value out of the session: #{session[:name]}"
