@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/eventmachine/eventmachine.iml" filepath="$PROJECT_DIR$/eventmachine/eventmachine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grape/grape.iml" filepath="$PROJECT_DIR$/grape/grape.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeweler/jeweler.iml" filepath="$PROJECT_DIR$/jeweler/jeweler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/portal/portal.iml" filepath="$PROJECT_DIR$/portal/portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servers/servers.iml" filepath="$PROJECT_DIR$/servers/servers.iml" />
     </modules>
   </component>
 </project>

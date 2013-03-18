@@ -8,6 +8,7 @@
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v3.2.12, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="addressable (v2.3.3, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="async-rack (v0.5.1, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="await (v0.1.0, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="backports (v2.6.7, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.0, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.1.0, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
@@ -20,14 +21,17 @@
     <orderEntry type="library" scope="PROVIDED" name="em-synchrony (v1.0.3, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="em-websocket (v0.5.0, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="eventmachine (v1.0.3, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faraday (v0.8.6, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="goliath (v1.0.1, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="grape (v0.3.2, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hashie (v2.0.2, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="http_parser.rb (v0.5.3, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="httparty (v0.10.2, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.4, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="log4r (v1.1.10, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.6.1, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_xml (v0.5.3, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multipart-post (v1.2.0, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.5.2, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-accept (v0.4.5, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-accept-media-types (v0.9, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
@@ -36,7 +40,9 @@
     <orderEntry type="library" scope="PROVIDED" name="rack-mount (v0.8.3, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-protection (v1.4.0, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-respond_to (v0.9.8, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.2, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sinatra (v1.3.5, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sinatra-contrib (v1.3.2, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sinatra-synchrony (v0.4.1, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thin (v1.5.0, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v1.3.5, RVM: ruby-1.9.2-p318 [playground_eventmachine]) [gem]" level="application" />

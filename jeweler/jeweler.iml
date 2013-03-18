@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="RVM: ruby-1.9.2-p318 [jeweler]" jdkType="RUBY_SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.1.0, RVM: ruby-1.9.2-p318 [jeweler]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="git (v1.2.5, RVM: ruby-1.9.2-p318 [jeweler]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="helloworld (v0.0.2@05920c, RVM: ruby-1.9.2-p318 [jeweler]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jeweler (v1.8.4, RVM: ruby-1.9.2-p318 [jeweler]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v1.7.7, RVM: ruby-1.9.2-p318 [jeweler]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rake (v10.0.3, RVM: ruby-1.9.2-p318 [jeweler]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rdoc (v4.0.0, RVM: ruby-1.9.2-p318 [jeweler]) [gem]" level="application" />
+  </component>
+</module>
+
