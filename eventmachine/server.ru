@@ -26,7 +26,8 @@ class App < Sinatra::Base
     urls = []
     10.times { urls << "http://localhost:3001/" }
 
-    EM::Synchrony::FiberIterator.new(urls, 10).each do |url|
+    concurrency = 5
+    EM::Synchrony::FiberIterator.new(urls, concurrency).each do |url|
       fiber = Fiber.new do
         result = http.get(url)
         puts result.body

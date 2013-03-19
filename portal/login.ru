@@ -69,8 +69,7 @@ class Authentication
   end
 
   def logged_in(authorisation_token)
-    result = http_get("#{authentication_service_url}/#{authorisation_token}", :application => @application)
-    result.status == 200
+    http_get("#{authentication_service_url}/#{authorisation_token}", :application => @application).status == 200
   end
 
   def call env
@@ -120,14 +119,24 @@ class SessionManagement
 
     session_url = "#{session_service_url}/#{authorisation_token}/#{app_token}"
 
-    response = http_get(session_url)
-    http_put(session_url) unless response.status == 200
+    register_application_session(session_url) unless application_session_registered?(session_url)
 
     load_session(app_token, env)
-
     result = @app.call(env)
-    set_in_cache(app_token, env["session_management.session"])
+    save_session(app_token, env)
     result
+  end
+
+  def save_session(app_token, env)
+    set_in_cache(app_token, env["session_management.session"])
+  end
+
+  def register_application_session(session_url)
+    http_put(session_url)
+  end
+
+  def application_session_registered?(session_url)
+    http_get(session_url).status == 200
   end
 
   def load_session(app_token, env)
@@ -148,20 +157,22 @@ end
 
 class Login < Sinatra::Base
   helpers HttpOperations, UrlBuilder
+  helpers do
+    def send_login_request
+      http_post "#{base_url}/auth", {credentials: {username: params[:username], password: params[:password]}}.to_json
+    end
+  end
 
   get '/' do
     haml :login
   end
 
   post '/' do
-    result = http_post "#{base_url}/auth", {credentials: {username: params[:username], password: params[:password]}}.to_json
-
-
+    result = send_login_request
     if result.status == 201
       token = JSON.parse(result.body)['token']
       response.set_cookie("auth_token", token)
       redirect "#{base_url}"
-
     else
       "failed login"
     end
@@ -222,21 +233,29 @@ class AuthenticationService < Grape::API
 
   helpers HttpOperations
 
+  helpers do
+    def send_create_session_request
+      http_post("http://localhost:3000/sessions")
+    end
+
+    def refresh_application_sessions
+      http = Faraday.new do |connection|
+        connection.use Faraday::Adapter::EMSynchrony
+      end
+      http.post("http://localhost:3000/sessions/#{params[:token]}")
+    end
+  end
+
   params do
     requires :credentials, :valid_credentials => true
   end
 
   post '/' do
-    response = http_post("http://localhost:3000/sessions")
-    response.body
+    send_create_session_request.body
   end
 
   get '/:token' do
-    http = Faraday.new do |connection|
-      connection.use Faraday::Adapter::EMSynchrony
-    end
-
-    response = http.post("http://localhost:3000/sessions/#{params[:token]}")
+    response = refresh_application_sessions
     throw(:error, :status => 404) unless response.status == 201
   end
 end
@@ -248,13 +267,13 @@ class HomePage < Sinatra::Base
     config.authentication_service_url "http://localhost:3000/auth"
   end
 
-  use(SessionManagement) do |config|
+  use SessionManagement do |config|
     config.session_service_url "http://localhost:3000/sessions"
   end
 
   get '/' do
     puts "value out of the session: #{session[:name]}"
-    session[:name] = "leon"
+    session[:name] = "homepage_value"
     haml :home
   end
 end
@@ -272,7 +291,7 @@ class Procure < Sinatra::Base
 
   get '/' do
     puts "value out of the session: #{session[:name]}"
-    session[:name] = "leon"
+    session[:name] = "procure_value"
     haml :procure
   end
 end

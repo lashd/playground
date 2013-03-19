@@ -20,7 +20,7 @@ class App < Sinatra::Base
 
   get '/' do
     time = Time.now
-    sleep 5
+    sleep 3
     "That took: #{Time.now - time}"
   end
 
