@@ -1,0 +1,3 @@
+source "http://rubygems.org"
+gems "grape"
+gem "playground-portal-helpers", :git => "https://github.com/lashd/playground.git"

@@ -15,7 +15,7 @@ end
 class AuthenticationService < Grape::API
   format :json
 
-  helpers HttpOperations
+  helpers Portal::Helpers::HttpOperations
 
   helpers do
     def send_create_session_request
