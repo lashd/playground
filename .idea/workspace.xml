@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33c761f4-3337-4904-9eff-3a89540b14b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/auth/.rvmrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/home/.rvmrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/login/.rvmrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/procure/.rvmrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/session/.rvmrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/auth/Gemfile.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/helpers/Gemfile.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/login/login.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playground.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/session/session.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="playground.iws" />
@@ -19,7 +9,7 @@
     <file path="/Gemfile" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1364055303288" ignored="false" />
     <file path="/server.rb" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1362935837300" ignored="false" />
     <file path="/client.rb" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1362936854233" ignored="false" />
-    <file path="/Dummy.txt" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1364055947009" ignored="false" />
+    <file path="/Dummy.txt" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1364055956829" ignored="false" />
     <file path="/queue.rb" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1362938298838" ignored="false" />
     <file path="/channels.rb" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1362938556609" ignored="false" />
     <file path="/defer.rb" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1362938754450" ignored="false" />
@@ -926,7 +916,11 @@
       <created>1364055909672</created>
       <updated>1364055909672</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="starting to break it all apart">
+      <created>1364055959189</created>
+      <updated>1364055959189</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
