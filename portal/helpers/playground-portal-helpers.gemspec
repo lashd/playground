@@ -20,6 +20,7 @@ Gem::Specification.new do |s|
     "helpers.iml",
     "lib/playground/portal/helpers/http_operations.rb",
     "lib/playground/portal/helpers/memcache_operations.rb",
+    "playground-portal-helpers.gemspec",
     "rakefile"
   ]
   s.homepage = "https://github.com/lashd/playground.git"

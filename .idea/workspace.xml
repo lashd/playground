@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33c761f4-3337-4904-9eff-3a89540b14b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/helpers/playground-portal-helpers.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/helpers/playground-portal-helpers.gemspec" afterPath="$PROJECT_DIR$/portal/helpers/playground-portal-helpers.gemspec" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="playground.iws" />
@@ -10,7 +11,7 @@
     <file path="/Gemfile" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1364055303288" ignored="false" />
     <file path="/server.rb" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1362935837300" ignored="false" />
     <file path="/client.rb" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1362936854233" ignored="false" />
-    <file path="/Dummy.txt" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1364055969453" ignored="false" />
+    <file path="/Dummy.txt" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1364056026129" ignored="false" />
     <file path="/queue.rb" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1362938298838" ignored="false" />
     <file path="/channels.rb" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1362938556609" ignored="false" />
     <file path="/defer.rb" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1362938754450" ignored="false" />
@@ -173,10 +174,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rakefile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="rakefile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portal/helpers/rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="22" selection-start="198" selection-end="198" vertical-scroll-proportion="0.43010753">
+            <state line="17" column="36" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -204,15 +214,6 @@
         <entry file="file://$PROJECT_DIR$/portal/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state line="5" column="0" selection-start="68" selection-end="86" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.ru" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portal/session/config.ru">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -247,7 +248,6 @@
         <option value="$PROJECT_DIR$/eventmachine/example.ru" />
         <option value="$PROJECT_DIR$/eventmachine/sleep.ru" />
         <option value="$PROJECT_DIR$/eventmachine/server.ru" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/portal/auth/Gemfile" />
         <option value="$PROJECT_DIR$/portal/auth/config.ru" />
         <option value="$PROJECT_DIR$/portal/helpers/lib/playground/portal/helpers/http_operations.rb" />
@@ -255,6 +255,7 @@
         <option value="$PROJECT_DIR$/portal/login.ru" />
         <option value="$PROJECT_DIR$/portal/helpers/Gemfile" />
         <option value="$PROJECT_DIR$/portal/helpers/rakefile" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -400,7 +401,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="eventmachine" />
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -928,7 +929,11 @@
       <created>1364055972657</created>
       <updated>1364055972657</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="starting to break it all apart">
+      <created>1364056030249</created>
+      <updated>1364056030249</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1052,13 +1057,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="11" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eventmachine/sleep.ru">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="11" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
@@ -1159,7 +1157,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portal/helpers/rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="198" selection-end="198" vertical-scroll-proportion="0.43010753">
+        <state line="17" column="36" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
