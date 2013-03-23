@@ -1,0 +1,9 @@
+---
+applications:
+- name: auth
+  framework: rack
+  runtime: ruby19
+  memory: 128M
+  instances: 1
+  url: auth.${target-base}
+  path: .
