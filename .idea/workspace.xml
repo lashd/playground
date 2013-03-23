@@ -2,18 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33c761f4-3337-4904-9eff-3a89540b14b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eventmachine/example.ru" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/auth/Gemfile" afterPath="$PROJECT_DIR$/portal/auth/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/helpers/Gemfile" afterPath="$PROJECT_DIR$/portal/helpers/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/auth/auth.iml" afterPath="$PROJECT_DIR$/portal/auth/auth.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/auth/config.ru" afterPath="$PROJECT_DIR$/portal/auth/config.ru" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/helpers/helpers.iml" afterPath="$PROJECT_DIR$/portal/helpers/helpers.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/helpers/lib/playground/portal/helpers/http_operations.rb" afterPath="$PROJECT_DIR$/portal/helpers/lib/playground/portal/helpers/http_operations.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/login.ru" afterPath="$PROJECT_DIR$/portal/login.ru" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eventmachine/server.ru" afterPath="$PROJECT_DIR$/eventmachine/server.ru" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eventmachine/sleep.ru" afterPath="$PROJECT_DIR$/eventmachine/sleep.ru" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/helpers/lib/playground/portal/helpers/memcache_operations.rb" afterPath="$PROJECT_DIR$/portal/helpers/lib/playground/portal/helpers/memcache_operations.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/portal.iml" afterPath="$PROJECT_DIR$/portal/portal.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/procure/procure.iml" afterPath="$PROJECT_DIR$/portal/procure/procure.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/helpers/rakefile" afterPath="$PROJECT_DIR$/portal/helpers/rakefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="playground.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Gemfile" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1363568667187" ignored="false" />
+    <file path="/Gemfile" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1364055303288" ignored="false" />
     <file path="/server.rb" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1362935837300" ignored="false" />
     <file path="/client.rb" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1362936854233" ignored="false" />
-    <file path="/Dummy.txt" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1363643144656" ignored="false" />
+    <file path="/Dummy.txt" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1364053516395" ignored="false" />
     <file path="/queue.rb" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1362938298838" ignored="false" />
     <file path="/channels.rb" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1362938556609" ignored="false" />
     <file path="/defer.rb" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1362938754450" ignored="false" />
@@ -71,6 +81,8 @@
     <file path="/procure.haml" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1363552134695" ignored="false" />
     <file path="/homepage.ru" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1363572980720" ignored="false" />
     <file path="/example.ru" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1363692975427" ignored="false" />
+    <file path="/.gitignore" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1364053676091" ignored="false" />
+    <file path="/rakefile" changelist="33c761f4-3337-4904-9eff-3a89540b14b9" time="1364055488740" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,79 +144,88 @@
       <file leaf-file-name="login.ru" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portal/login.ru">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="4" selection-start="313" selection-end="354" vertical-scroll-proportion="0.0">
+            <state line="12" column="0" selection-start="267" selection-end="267" vertical-scroll-proportion="-0.96">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.ru" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eventmachine/server.ru">
+      <file leaf-file-name="memcache_operations.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portal/helpers/lib/playground/portal/helpers/memcache_operations.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="14" selection-start="613" selection-end="613" vertical-scroll-proportion="0.30637813">
+            <state line="2" column="35" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sleep.ru" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eventmachine/sleep.ru">
+      <file leaf-file-name="config.ru" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portal/auth/config.ru">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="11" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="example.ru" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eventmachine/example.ru">
+      <file leaf-file-name="http_operations.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portal/helpers/lib/playground/portal/helpers/http_operations.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="34" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+            <state line="24" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="memcache.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p318@playground_portal/gems/eventmachine-1.0.3/lib/em/protocols/memcache.rb">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portal/helpers/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="0" selection-start="3750" selection-end="3750" vertical-scroll-proportion="0.0">
+            <state line="5" column="17" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p318@playground_portal/gems/sinatra-1.4.1/lib/sinatra/base.rb">
+      <file leaf-file-name="rakefile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/portal/helpers/rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="291" column="8" selection-start="7999" selection-end="7999" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.21428572">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p318@playground_portal/gems/grape-0.3.2/lib/grape/middleware/error.rb">
+      <file leaf-file-name="generator.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@playground_portal_helpers/gems/jeweler-1.8.4/lib/jeweler/generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0">
+            <state line="150" column="8" selection-start="4915" selection-end="4915" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="em_synchrony.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p318@playground_portal/gems/faraday-0.8.6/lib/faraday/adapter/em_synchrony.rb">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portal/auth/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1506" selection-end="1506" vertical-scroll-proportion="0.0">
+            <state line="2" column="9" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="response.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p318@playground_portal/gems/faraday-0.8.6/lib/faraday/response.rb">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portal/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="4" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="68" selection-end="86" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.ru" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portal/session/config.ru">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -228,30 +249,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$USER_HOME$/.rvm/gems/ruby-1.9.2-p318@playground_eventmachine/gems/em-synchrony-1.0.3/lib/em-synchrony/em-http.rb" />
-        <option value="$PROJECT_DIR$/eventmachine/Gemfile" />
-        <option value="$PROJECT_DIR$/eventmachine/sleep_server.ru" />
-        <option value="$PROJECT_DIR$/portal/views/home.haml" />
-        <option value="$USER_HOME$/.rvm/gems/ruby-1.9.2-p318@playground_grape/gems/grape-0.3.2/lib/grape/middleware/base.rb" />
-        <option value="$PROJECT_DIR$/portal/apis.ru" />
-        <option value="$PROJECT_DIR$/eventmachine/test.rb" />
         <option value="$PROJECT_DIR$/portal/views/procure.haml" />
         <option value="$PROJECT_DIR$/portal/Gemfile" />
         <option value="$PROJECT_DIR$/portal/test.rb" />
         <option value="$PROJECT_DIR$/portal/homepage.ru" />
         <option value="$PROJECT_DIR$/portal/views/login.haml" />
-        <option value="$PROJECT_DIR$/portal/login.ru" />
         <option value="$PROJECT_DIR$/eventmachine/example.ru" />
         <option value="$PROJECT_DIR$/eventmachine/sleep.ru" />
         <option value="$PROJECT_DIR$/eventmachine/server.ru" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/portal/auth/Gemfile" />
+        <option value="$PROJECT_DIR$/portal/auth/config.ru" />
+        <option value="$PROJECT_DIR$/portal/helpers/lib/playground/portal/helpers/http_operations.rb" />
+        <option value="$PROJECT_DIR$/portal/helpers/lib/playground/portal/helpers/memcache_operations.rb" />
+        <option value="$PROJECT_DIR$/portal/login.ru" />
+        <option value="$PROJECT_DIR$/portal/helpers/Gemfile" />
+        <option value="$PROJECT_DIR$/portal/helpers/rakefile" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="-5" />
-    <option name="width" value="1682" />
-    <option name="height" value="1056" />
+    <option name="y" value="27" />
+    <option name="width" value="1680" />
+    <option name="height" value="1023" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -300,6 +320,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -307,10 +329,6 @@
               <option name="myItemId" value="playground" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -318,15 +336,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dalli (v2.6.2, RVM: ruby-1.9.2-p318 [playground_portal]) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="playground" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -336,26 +346,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dalli (v2.6.2, RVM: ruby-1.9.2-p318 [playground_portal]) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dalli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="playground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="servers" />
@@ -368,6 +360,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="portal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -378,11 +374,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="portal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,56 +391,46 @@
               <option name="myItemId" value="playground" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jeweler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="playground" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="eventmachine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eventmachine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="echo_server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../antonio/BingoFlights/pom.xml" />
-    <property name="project.structure.side.proportion" value="0.18298368" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/portal/helpers" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="project.structure.side.proportion" value="0.19858989" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -453,7 +443,7 @@
     <configuration default="false" name="config.ru" type="RackRunConfigurationType" factoryName="Rack" temporary="true">
       <module name="grape" />
       <RACK_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RACK_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RACK_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
       <RACK_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RACK_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RACK_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -667,19 +657,6 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -706,6 +683,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -960,7 +950,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-5" width="1682" height="1056" extended-state="6" />
+    <frame x="0" y="27" width="1680" height="1023" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -974,19 +964,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24908201" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281768" sideWeight="0.497552" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24877451" sideWeight="0.67239404" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32760596" sideWeight="0.497552" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="100" y="124" width="1480" height="826" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1059,100 +1049,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p318@playground_portal/gems/rack-1.5.2/lib/rack/builder.rb">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portal/views/login.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="287" selection-end="287" vertical-scroll-proportion="-8.055555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p318@playground_portal/gems/grape-0.3.2/lib/grape/endpoint.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="169" column="0" selection-start="6179" selection-end="6179" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p318@playground_portal/gems/hashie-2.0.2/lib/hashie/mash.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="0" selection-start="2731" selection-end="2731" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p318@playground_portal/gems/faraday-0.8.6/lib/faraday/connection.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="0" selection-start="3856" selection-end="3856" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p318@playground_portal/gems/faraday-0.8.6/lib/faraday/adapter/em_synchrony.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1506" selection-end="1506" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p318@playground_portal/gems/faraday-0.8.6/lib/faraday/response.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="4" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p318@playground_portal/gems/grape-0.3.2/lib/grape/middleware/error.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p318@playground_portal/gems/eventmachine-1.0.3/lib/em/protocols/memcache.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="0" selection-start="3750" selection-end="3750" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p318@playground_portal/gems/sinatra-1.4.1/lib/sinatra/base.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="291" column="8" selection-start="7999" selection-end="7999" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eventmachine/example.ru">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="34" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eventmachine/echo_server/server.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.46761134">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eventmachine/echo_server/client.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portal/login.ru">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="313" selection-end="354" vertical-scroll-proportion="0.0">
+        <state line="1" column="11" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1164,9 +1063,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eventmachine/server.ru">
+    <entry file="file://$PROJECT_DIR$/eventmachine/example.ru">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="14" selection-start="613" selection-end="613" vertical-scroll-proportion="0.30637813">
+        <state line="22" column="48" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/login/config.ru">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/home/config.ru">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/procure/config.ru">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/session/config.ru">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/auth/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="9" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/auth/config.ru">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/helpers/lib/playground/portal/helpers/http_operations.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="68" selection-end="86" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/login.ru">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="267" selection-end="267" vertical-scroll-proportion="-0.96">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/helpers/lib/playground/portal/helpers/memcache_operations.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="35" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/helpers/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@playground_portal_helpers/gems/jeweler-1.8.4/lib/jeweler/generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="8" selection-start="4915" selection-end="4915" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/helpers/rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.21428572">
           <folding />
         </state>
       </provider>
@@ -1200,7 +1190,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>activeldap (v3.2.2, RVM: ruby-1.9.2-p318 [colt] (1)) [gem]</last-edited>
+          <last-edited>activesupport (v3.2.12, RVM: ruby-1.9.3-p374 [authentication_service]) [gem]</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1212,7 +1202,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>RVM: ruby-1.9.2-p320</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1224,11 +1214,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>portal</last-edited>
+          <last-edited>helpers</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.18298368" />
+                <option value="0.19858989" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1237,7 +1227,6 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

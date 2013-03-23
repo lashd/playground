@@ -1,0 +1,23 @@
+# encoding: utf-8
+
+require 'bundler'
+require 'rake'
+require 'jeweler'
+
+begin
+  Bundler.setup(:default, :development)
+rescue Bundler::BundlerError => e
+  $stderr.puts e.message
+  $stderr.puts "Run `bundle install` to install missing gems"
+  exit e.status_code
+end
+
+Jeweler::Tasks.new do |gem|
+  gem.name = "playground-portal-helpers"
+  gem.homepage = "https://github.com/lashd/playground.git"
+  gem.license = "MIT"
+  gem.summary = "helpers"
+  gem.description = "helpers"
+  gem.email = "leon_a_d@yahoo.com"
+  gem.authors = %w(lashd)
+end
