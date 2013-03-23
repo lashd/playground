@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "playground-portal-helpers"
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["lashd"]
@@ -13,80 +13,14 @@ Gem::Specification.new do |s|
   s.description = "helpers"
   s.email = "leon_a_d@yahoo.com"
   s.files = [
-    ".rvmrc",
     "Gemfile",
     "Gemfile.lock",
     "VERSION",
-    "eventmachine/.rvmrc",
-    "eventmachine/Gemfile",
-    "eventmachine/Gemfile.lock",
-    "eventmachine/channels.rb",
-    "eventmachine/defer.rb",
-    "eventmachine/deferrable/callback_chain.rb",
-    "eventmachine/deferrable/custom_deferrable.rb",
-    "eventmachine/deferrable/default_deferrable.rb",
-    "eventmachine/echo_server/client.rb",
-    "eventmachine/echo_server/server.rb",
-    "eventmachine/eventmachine.iml",
-    "eventmachine/example.ru",
-    "eventmachine/performance_example/sinatra_synchrony.ru",
-    "eventmachine/performance_example/sinatra_vanilla.ru",
-    "eventmachine/queues.rb",
-    "eventmachine/server.ru",
-    "eventmachine/sleep.ru",
-    "eventmachine/socket_server.rb",
-    "eventmachine/test.rb",
-    "eventmachine/websockets.rb",
-    "grape/.rvmrc",
-    "grape/Gemfile",
-    "grape/config.ru",
-    "grape/grape.iml",
-    "grape/test.rb",
-    "jeweler/.rvmrc",
-    "jeweler/jeweler.iml",
     "lib/playground/portal/helpers/http_operations.rb",
     "lib/playground/portal/helpers/memcache_operations.rb",
+    "playground-portal-helpers.gemspec",
     "playground.iml",
-    "portal/.rvmrc",
-    "portal/Gemfile",
-    "portal/Gemfile.lock",
-    "portal/apis.ru",
-    "portal/auth/.rvmrc",
-    "portal/auth/Gemfile",
-    "portal/auth/Gemfile.lock",
-    "portal/auth/auth.iml",
-    "portal/auth/config.ru",
-    "portal/helpers/.rvmrc",
-    "portal/helpers/Gemfile",
-    "portal/helpers/Gemfile.lock",
-    "portal/helpers/helpers.iml",
-    "portal/home/.rvmrc",
-    "portal/home/config.ru",
-    "portal/home/home.iml",
-    "portal/homepage.ru",
-    "portal/login.ru",
-    "portal/login/.rvmrc",
-    "portal/login/config.ru",
-    "portal/login/login.iml",
-    "portal/portal.iml",
-    "portal/procure.ru",
-    "portal/procure/.rvmrc",
-    "portal/procure/config.ru",
-    "portal/procure/procure.iml",
-    "portal/session.ru",
-    "portal/session/.rvmrc",
-    "portal/session/config.ru",
-    "portal/session/session.iml",
-    "portal/test.rb",
-    "portal/views/home.haml",
-    "portal/views/login.haml",
-    "portal/views/procure.haml",
-    "rakefile",
-    "servers/.rvmrc",
-    "servers/Gemfile",
-    "servers/Gemfile.lock",
-    "servers/goliath.rb",
-    "servers/servers.iml"
+    "rakefile"
   ]
   s.homepage = "https://github.com/lashd/playground.git"
   s.licenses = ["MIT"]
