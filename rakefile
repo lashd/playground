@@ -13,7 +13,7 @@ rescue Bundler::BundlerError => e
 end
 
 
-task = Jeweler::Tasks.new do |gem|
+Jeweler::Tasks.new do |gem|
   gem.name = "playground-portal-helpers"
   gem.homepage = "https://github.com/lashd/playground.git"
   gem.license = "MIT"
@@ -22,6 +22,5 @@ task = Jeweler::Tasks.new do |gem|
   gem.email = "leon_a_d@yahoo.com"
   gem.authors = %w(lashd)
   gem.files.reject!{|fn| %W(grape eventmachine jeweler portal servers .rvmrc).find{|prefix|fn.start_with?(prefix)}}
-  puts gem.files
 end
 
