@@ -2,3 +2,4 @@ source "http://rubygems.org"
 
 gem "grape"
 gem "thin"
+gem "playground-portal-helpers", :git => "https://github.com/lashd/playground.git"

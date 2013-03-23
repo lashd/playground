@@ -12,7 +12,8 @@ rescue Bundler::BundlerError => e
   exit e.status_code
 end
 
-Jeweler::Tasks.new do |gem|
+
+task = Jeweler::Tasks.new do |gem|
   gem.name = "playground-portal-helpers"
   gem.homepage = "https://github.com/lashd/playground.git"
   gem.license = "MIT"
@@ -21,3 +22,4 @@ Jeweler::Tasks.new do |gem|
   gem.email = "leon_a_d@yahoo.com"
   gem.authors = %w(lashd)
 end
+
