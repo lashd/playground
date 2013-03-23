@@ -21,5 +21,7 @@ task = Jeweler::Tasks.new do |gem|
   gem.description = "helpers"
   gem.email = "leon_a_d@yahoo.com"
   gem.authors = %w(lashd)
+  gem.files.reject!{|fn| %W(grape eventmachine jeweler portal servers .rvmrc).find{|prefix|fn.start_with?(prefix)}}
+  puts gem.files
 end
 

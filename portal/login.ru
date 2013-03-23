@@ -166,16 +166,7 @@ class Login < Sinatra::Base
   end
 end
 
-class ValidCredentials < Grape::Validations::Validator
-  def validate_param!(param, params)
-    users = {'Bruce' => 'Arkham'}
-    credentials = params.credentials
-    user_password = users[credentials.username]
 
-    throw(:error, :message => {:error => "user_not_found"}) if user_password.nil?
-    throw(:error, :message => {:error => "invalid_password"}) if user_password != credentials.password
-  end
-end
 
 class SessionService < Grape::API
   format :json

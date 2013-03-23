@@ -1,3 +1,17 @@
+require 'playground/portal/helpers/http_operations'
+require 'grape'
+
+class ValidCredentials < Grape::Validations::Validator
+  def validate_param!(param, params)
+    users = {'Bruce' => 'Arkham'}
+    credentials = params.credentials
+    user_password = users[credentials.username]
+
+    throw(:error, :message => {:error => "user_not_found"}) if user_password.nil?
+    throw(:error, :message => {:error => "invalid_password"}) if user_password != credentials.password
+  end
+end
+
 class AuthenticationService < Grape::API
   format :json
 
@@ -29,3 +43,5 @@ class AuthenticationService < Grape::API
     throw(:error, :status => 404) unless response.status == 201
   end
 end
+
+run AuthenticationService
