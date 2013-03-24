@@ -1,0 +1,9 @@
+---
+applications:
+- name: session
+  framework: rack
+  runtime: ruby19
+  memory: 256M
+  instances: 1
+  url: session.${target-base}
+  path: .
