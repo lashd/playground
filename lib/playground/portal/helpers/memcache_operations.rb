@@ -1,3 +1,5 @@
+require 'event_machine'
+require 'em-synchrony/em-memcache'
 module Portal
   module Memcache
     class << self

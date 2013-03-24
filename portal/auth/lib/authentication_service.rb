@@ -22,14 +22,14 @@ class AuthenticationService < Grape::API
 
   helpers do
     def send_create_session_request
-      http_post("#{AuthenticationService.session_service_url}/sessions")
+      http_post("#{AuthenticationService.session_service_url}")
     end
 
     def refresh_application_sessions
       http = Faraday.new do |connection|
         connection.use Faraday::Adapter::EMSynchrony
       end
-      http.post("#{AuthenticationService.session_service_url}/sessions/#{params[:token]}")
+      http.post("#{AuthenticationService.session_service_url}/#{params[:token]}")
     end
   end
 

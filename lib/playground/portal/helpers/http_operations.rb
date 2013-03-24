@@ -1,3 +1,5 @@
+require 'faraday'
+require 'em-synchrony/em-http'
 module Portal
   module Helpers
     module HttpOperations

@@ -1,6 +1,5 @@
 require 'grape'
 require 'playground/portal/helpers/memcache_operations'
-require 'em-synchrony'
 require "em-synchrony/fiber_iterator"
 require 'uuid'
 
