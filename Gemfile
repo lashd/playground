@@ -4,6 +4,7 @@ gem "faraday"
 gem "eventmachine"
 gem "em-synchrony"
 gem 'em-http-request'
+gem 'vmc'
 
 group :development do
   gem "bundler"

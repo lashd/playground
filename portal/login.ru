@@ -20,7 +20,7 @@ module HttpOperations
 
   def http_post url, body="", content_type="application/json"
     http.post(url) do |request|
-      request.body = body
+      request.body = body if body
       request.headers['Content-Type'] = content_type
     end
   end
