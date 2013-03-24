@@ -2,7 +2,7 @@ require "#{File.dirname(__FILE__)}/lib/session_service"
 require 'cloudfoundry/environment'
 require 'rack/fiber_pool'
 
-puts ENV['RACK_ENV']
+puts "RACK_ENV is: #{ENV['RACK_ENV']}"
 
 
 case ENV['RACK_ENV']
