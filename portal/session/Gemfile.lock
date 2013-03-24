@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/lashd/playground.git
-  revision: ccf7519d2fdefc86ea7e970be637df58d7032c09
+  revision: 0a2ebc9728072e0bdd7414a3efbdbfff1221701f
   specs:
-    playground-portal-helpers (0.1.6)
+    playground-portal-helpers (0.1.7)
       em-synchrony
       eventmachine
       faraday

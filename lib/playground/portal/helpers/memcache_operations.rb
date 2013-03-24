@@ -2,13 +2,17 @@ module Portal
   module Memcache
     class << self
       attr_accessor :host
+
+      def connection
+        @connection ||= EventMachine::Protocols::Memcache.connect(host)
+      end
     end
   end
 
   module Helpers
     module MemcacheOperations
       def memcache
-        EventMachine::Protocols::Memcache.connect(::Portal::Memcache.host)
+        ::Portal::Memcache.connection
       end
 
       def set_in_cache key, value
