@@ -9,6 +9,7 @@
     <orderEntry type="library" scope="PROVIDED" name="backports (v2.6.7, RVM: ruby-1.9.3-p374 [playground_portal_auth]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.0, RVM: ruby-1.9.3-p374 [playground_portal_auth]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.2.3, RVM: ruby-1.9.3-p374 [playground_portal_auth]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="cloudfoundry-env (v0.0.5, RVM: ruby-1.9.3-p374 [playground_portal_auth]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="daemons (v1.1.9, RVM: ruby-1.9.3-p374 [playground_portal_auth]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="descendants_tracker (v0.0.1, RVM: ruby-1.9.3-p374 [playground_portal_auth]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="em-synchrony (v1.0.3, RVM: ruby-1.9.3-p374 [playground_portal_auth]) [gem]" level="application" />
@@ -20,9 +21,10 @@
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.7.2, RVM: ruby-1.9.3-p374 [playground_portal_auth]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_xml (v0.5.3, RVM: ruby-1.9.3-p374 [playground_portal_auth]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multipart-post (v1.2.0, RVM: ruby-1.9.3-p374 [playground_portal_auth]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="playground-portal-helpers (v0.1.1@dbae48, RVM: ruby-1.9.3-p374 [playground_portal_auth]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="playground-portal-helpers (v0.1.4@5313ce, RVM: ruby-1.9.3-p374 [playground_portal_auth]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.5.2, RVM: ruby-1.9.3-p374 [playground_portal_auth]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-accept (v0.4.5, RVM: ruby-1.9.3-p374 [playground_portal_auth]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-fiber_pool (v0.9.3, RVM: ruby-1.9.3-p374 [playground_portal_auth]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-mount (v0.8.3, RVM: ruby-1.9.3-p374 [playground_portal_auth]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thin (v1.5.1, RVM: ruby-1.9.3-p374 [playground_portal_auth]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="virtus (v0.5.4, RVM: ruby-1.9.3-p374 [playground_portal_auth]) [gem]" level="application" />

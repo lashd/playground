@@ -1,3 +1,7 @@
 source "http://rubygems.org"
-gems "grape"
+gem "grape"
+gem "cloudfoundry-env"
+gem "rack-fiber_pool"
+gem "em-synchrony"
+gem "thin"
 gem "playground-portal-helpers", :git => "https://github.com/lashd/playground.git"
