@@ -1,4 +1,4 @@
-require 'event_machine'
+require 'eventmachine'
 require 'em-synchrony/em-memcache'
 module Portal
   module Memcache

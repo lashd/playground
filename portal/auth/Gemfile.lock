@@ -1,8 +1,9 @@
 GIT
   remote: https://github.com/lashd/playground.git
-  revision: 437ebd7bcad9248efa732e4140a98a5b4a99c3d8
+  revision: 411b1d8faa422ae0269cf49d628e921a5af0b2d5
   specs:
-    playground-portal-helpers (0.1.9)
+    playground-portal-helpers (0.1.10)
+      em-http-request
       em-synchrony
       eventmachine
       faraday
@@ -13,12 +14,22 @@ GEM
     activesupport (3.2.13)
       i18n (= 0.6.1)
       multi_json (~> 1.0)
+    addressable (2.3.3)
     backports (2.6.7)
     builder (3.2.0)
     cloudfoundry-env (0.0.5)
       hashie
+    cookiejar (0.3.0)
     daemons (1.1.9)
     descendants_tracker (0.0.1)
+    em-http-request (1.0.3)
+      addressable (>= 2.2.3)
+      cookiejar
+      em-socksify
+      eventmachine (>= 1.0.0.beta.4)
+      http_parser.rb (>= 0.5.3)
+    em-socksify (0.2.1)
+      eventmachine (>= 1.0.0.beta.4)
     em-synchrony (1.0.3)
       eventmachine (>= 1.0.0.beta.1)
     eventmachine (1.0.3)
@@ -35,6 +46,7 @@ GEM
       rack-mount
       virtus
     hashie (2.0.3)
+    http_parser.rb (0.5.3)
     i18n (0.6.1)
     multi_json (1.7.2)
     multi_xml (0.5.3)
