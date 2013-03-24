@@ -3,7 +3,7 @@ applications:
 - name: session
   framework: rack
   runtime: ruby19
-  memory: 256M
+  memory: 128M
   instances: 1
   url: session.${target-base}
   path: .

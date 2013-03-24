@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/lashd/playground.git
-  revision: 5313ce43e91fb1ce17dc4edea71eb39e9a76c987
+  revision: ccf7519d2fdefc86ea7e970be637df58d7032c09
   specs:
-    playground-portal-helpers (0.1.4)
+    playground-portal-helpers (0.1.6)
       em-synchrony
       eventmachine
       faraday
@@ -36,6 +36,8 @@ GEM
       virtus
     hashie (2.0.3)
     i18n (0.6.1)
+    macaddr (1.6.1)
+      systemu (~> 2.5.0)
     multi_json (1.7.2)
     multi_xml (0.5.3)
     multipart-post (1.2.0)
@@ -45,10 +47,13 @@ GEM
     rack-fiber_pool (0.9.3)
     rack-mount (0.8.3)
       rack (>= 1.0.0)
+    systemu (2.5.2)
     thin (1.5.1)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
       rack (>= 1.0.0)
+    uuid (2.3.7)
+      macaddr (~> 1.0)
     virtus (0.5.4)
       backports (~> 2.6.1)
       descendants_tracker (~> 0.0.1)
@@ -63,3 +68,4 @@ DEPENDENCIES
   playground-portal-helpers!
   rack-fiber_pool
   thin
+  uuid

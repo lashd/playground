@@ -2,10 +2,11 @@ require 'grape'
 require 'playground/portal/helpers/memcache_operations'
 require 'em-synchrony'
 require "em-synchrony/fiber_iterator"
+require 'uuid'
 
 class SessionService < Grape::API
   format :json
-  helpers MemcacheOperations
+  helpers Portal::Helpers::MemcacheOperations
 
   put "/:token/:app_token" do
     cache_entry = get_from_cache(params[:token])

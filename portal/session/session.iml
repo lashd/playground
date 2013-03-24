@@ -18,15 +18,18 @@
     <orderEntry type="library" scope="PROVIDED" name="grape (v0.4.0, RVM: ruby-1.9.3-p374 [playground_portal_session]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hashie (v2.0.3, RVM: ruby-1.9.3-p374 [playground_portal_session]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.1, RVM: ruby-1.9.3-p374 [playground_portal_session]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="macaddr (v1.6.1, RVM: ruby-1.9.3-p374 [playground_portal_session]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.7.2, RVM: ruby-1.9.3-p374 [playground_portal_session]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_xml (v0.5.3, RVM: ruby-1.9.3-p374 [playground_portal_session]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multipart-post (v1.2.0, RVM: ruby-1.9.3-p374 [playground_portal_session]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="playground-portal-helpers (v0.1.4@5313ce, RVM: ruby-1.9.3-p374 [playground_portal_session]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="playground-portal-helpers (v0.1.6@ccf751, RVM: ruby-1.9.3-p374 [playground_portal_session]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.5.2, RVM: ruby-1.9.3-p374 [playground_portal_session]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-accept (v0.4.5, RVM: ruby-1.9.3-p374 [playground_portal_session]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-fiber_pool (v0.9.3, RVM: ruby-1.9.3-p374 [playground_portal_session]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-mount (v0.8.3, RVM: ruby-1.9.3-p374 [playground_portal_session]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="systemu (v2.5.2, RVM: ruby-1.9.3-p374 [playground_portal_session]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thin (v1.5.1, RVM: ruby-1.9.3-p374 [playground_portal_session]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="uuid (v2.3.7, RVM: ruby-1.9.3-p374 [playground_portal_session]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="virtus (v0.5.4, RVM: ruby-1.9.3-p374 [playground_portal_session]) [gem]" level="application" />
   </component>
 </module>
