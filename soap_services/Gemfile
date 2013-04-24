@@ -1,0 +1,6 @@
+source "http://rubygems.org"
+gem "eventmachine"
+gem "em-http-request"
+gem 'savon'
+gem 'sinatra'
+gem 'grape'

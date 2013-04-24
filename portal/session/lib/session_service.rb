@@ -23,6 +23,7 @@ class SessionService < Grape::API
   end
 
   post "/" do
+    puts "creating session"
     token = UUID.generate(:compact)
     set_in_cache(token, [])
     {token: token}

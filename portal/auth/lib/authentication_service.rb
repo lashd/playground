@@ -22,11 +22,11 @@ class AuthenticationService < Grape::API
 
   helpers do
     def send_create_session_request
-      JSON.parse(http_post("#{AuthenticationService.session_service_url}").body)
+      JSON.parse(http_post("#{AuthenticationService.session_service_url}/sessions").body)
     end
 
     def refresh_application_sessions token
-      http_post("#{AuthenticationService.session_service_url}/#{token}")
+      http_post("#{AuthenticationService.session_service_url}/sessions/#{token}")
     end
   end
 
@@ -35,7 +35,8 @@ class AuthenticationService < Grape::API
   end
 
   post '/' do
-    send_create_session_request
+    #send_create_session_request
+    {token: rand(99999)}
   end
 
   get '/:token' do

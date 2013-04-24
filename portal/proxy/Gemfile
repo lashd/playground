@@ -1,0 +1,9 @@
+source "http://rubygems.org"
+gem "thin"
+gem "rack-proxy"
+gem "cloudfoundry-env"
+gem 'rack-rewrite'
+gem 'rack-fiber_pool'
+gem 'faraday'
+gem "playground-portal-helpers", :git => "https://github.com/lashd/playground.git"
+gem 'sinatra'

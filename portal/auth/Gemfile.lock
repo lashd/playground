@@ -1,12 +1,13 @@
 GIT
   remote: https://github.com/lashd/playground.git
-  revision: 03a905afebc42a28219c19dfb7ac45175a14437b
+  revision: ee20239a7d78905bea18c8897131965bac17efdd
   specs:
-    playground-portal-helpers (0.1.11)
+    playground-portal-helpers (0.2.0)
       em-http-request
       em-synchrony
       eventmachine
       faraday
+      vmc
 
 GEM
   remote: http://rubygems.org/
@@ -17,8 +18,19 @@ GEM
     addressable (2.3.3)
     backports (2.6.7)
     builder (3.2.0)
+    caldecott-client (0.0.2)
+      multi_json (~> 1.3)
+    cf-uaa-lib (1.3.10)
+      multi_json
+    cfoundry (0.5.2)
+      cf-uaa-lib (~> 1.3.3)
+      multi_json (~> 1.3)
+      multipart-post (~> 1.1)
+      rubyzip (~> 0.9)
     cloudfoundry-env (0.0.5)
       hashie
+    clouseau (0.0.2)
+      rubyzip (~> 0.9.9)
     cookiejar (0.3.0)
     daemons (1.1.9)
     descendants_tracker (0.0.1)
@@ -33,7 +45,7 @@ GEM
     em-synchrony (1.0.3)
       eventmachine (>= 1.0.0.beta.1)
     eventmachine (1.0.3)
-    faraday (0.8.6)
+    faraday (0.8.7)
       multipart-post (~> 1.1)
     grape (0.4.0)
       activesupport
@@ -48,6 +60,12 @@ GEM
     hashie (2.0.3)
     http_parser.rb (0.5.3)
     i18n (0.6.1)
+    interact (0.5.2)
+    json_pure (1.7.7)
+    manifests-vmc-plugin (0.6.2)
+      cfoundry (~> 0.5.2)
+    mime-types (1.21)
+    mothership (0.5.1)
     multi_json (1.7.2)
     multi_xml (0.5.3)
     multipart-post (1.2.0)
@@ -57,13 +75,32 @@ GEM
     rack-fiber_pool (0.9.3)
     rack-mount (0.8.3)
       rack (>= 1.0.0)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rubyzip (0.9.9)
     thin (1.5.1)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
       rack (>= 1.0.0)
+    tunnel-vmc-plugin (0.2.2)
+      addressable (~> 2.2)
+      caldecott-client (~> 0.0.2)
+      cfoundry (~> 0.5.2)
+      rest-client (~> 1.6)
+      uuidtools (~> 2.1)
+    uuidtools (2.1.3)
     virtus (0.5.4)
       backports (~> 2.6.1)
       descendants_tracker (~> 0.0.1)
+    vmc (0.5.0)
+      cfoundry (~> 0.5.2)
+      clouseau (~> 0.0)
+      interact (~> 0.5)
+      json_pure (~> 1.6)
+      manifests-vmc-plugin (~> 0.6.2)
+      mothership (>= 0.5.1, < 1.0)
+      multi_json (~> 1.3)
+      tunnel-vmc-plugin (~> 0.2.2)
 
 PLATFORMS
   ruby

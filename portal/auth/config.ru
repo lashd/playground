@@ -9,8 +9,6 @@ case ENV['RACK_ENV']
   else
     AuthenticationService.session_service_url = "http://localhost"
 end
-
-puts "Session service url: #{AuthenticationService.session_service_url}"
 use Rack::FiberPool
 
 run AuthenticationService

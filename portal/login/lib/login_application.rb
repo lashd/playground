@@ -9,7 +9,7 @@ class Login < Sinatra::Base
 
   helpers do
     def send_login_request
-      http_post Login.auth_url, {credentials: {username: params[:username], password: params[:password]}}.to_json
+      http_post(Login.auth_url, {credentials: {username: params[:username], password: params[:password]}}.to_json)
     end
   end
 
@@ -22,7 +22,7 @@ class Login < Sinatra::Base
     if result.status == 201
       token = JSON.parse(result.body)['token']
       response.set_cookie("auth_token", token)
-      redirect "#{base_url}"
+      "logged in"
     else
       "failed login"
     end
