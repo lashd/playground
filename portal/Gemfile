@@ -1,8 +1,12 @@
 source :rubygems
-gem "grape"
+source 'http://localhost:8808'
+gem "grape", "~>1.0"
 gem "sinatra"
 gem "thin"
 gem "faraday"
+gem "playground-portal-helpers", :git => "https://github.com/lashd/playground.git"
+gem 'eventmachine'
+gem 'em-http-request'
 gem "em-synchrony"
 gem "haml"
 gem "uuid"
